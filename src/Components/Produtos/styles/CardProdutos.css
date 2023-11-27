@@ -1,0 +1,74 @@
+.itenProduto {
+	width: 20vw;
+	height: 350px;
+	border: 1px solid #6c9fec;
+	border-radius: 25px;
+	padding: 8px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.itenProduto img {
+	width: 90%;
+	height: auto;
+	margin-bottom: 17px;
+}
+
+.itenProduto:hover {
+	background-color: #6c9fec; 
+    color: white;
+    transition: 0.4s;
+}
+
+.itenProduto .titulo {
+	padding: 0.7em;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 22px;
+}
+
+.itenProduto .preco {
+	font-weight: bold;
+}
+
+.itenProduto .btn {
+	background-color: #6c9fec;
+	padding: 2px 5px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.itenProduto:hover .btn {
+	background-color: #fff;
+	color: #6c9fec;
+}
+
+.itenProduto .footer-section {
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+}
+
+@media(max-width: 900px) {
+	.itenProduto .titulo {
+		font-size: 1rem;
+	}
+} 
+
+@media(max-width: 880px) {
+	.itenProduto {
+		width: 40vw;
+		height: 380px;
+	}
+}
+
+@media(max-width: 400px) {
+	.itenProduto {
+		width: 70vw;
+	}
+}

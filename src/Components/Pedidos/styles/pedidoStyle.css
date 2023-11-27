@@ -1,0 +1,44 @@
+.itemPedido {
+	background-color: rgb(245,255,250);
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+	justify-content: center;
+	align-items: center;
+	padding: 0.8rem;
+	border-radius: 20px;
+}
+
+.itemPedido:hover {
+	background-color: rgb(176, 224, 230);
+	color: #FFF;
+	transition: 0.5s;
+}
+
+.itemPedido img {
+	width: 50%;
+}
+
+.itemPedido span {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 0.94rem;
+}
+
+@media(max-width: 840px) {
+	.itemPedido {
+		width: 20%;
+	}
+}
+
+@media(max-width: 700px) {
+	.itemPedido {
+		width: 60%;
+	}	
+}
+
+@media(max-width: 320px) {
+	.itemPedido {
+		width: 100%;
+	}	
+}

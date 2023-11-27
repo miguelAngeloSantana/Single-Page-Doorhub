@@ -1,0 +1,120 @@
+.conteiner-about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.conteiner-about .desc-section {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 30px;
+}
+
+.conteiner-about .desc-section h1 {
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+
+
+.conteiner-about .desc-section p {
+	margin-top: 16px;
+	font-size: 0.96rem;
+	color: #999;
+}
+
+.conteiner-about .btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 24px;
+	border: 2px solid rgb(147, 197, 253);
+	border-radius: 25px;
+	padding: 12px 25px;
+}
+
+.conteiner-about .btn .pesquisar {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(37, 99, 235);
+	color: #fff;
+	padding: 12px 15px;
+	border-radius: 50px;
+	gap: 0.5rem;
+}
+
+.conteiner-about .btn .pesquisar .simbolo {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	color: #000;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 25px;
+}
+
+.conteiner-about .img-section {
+	width: 55%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.conteiner-about .img-section img {
+	width: 80%;
+}
+
+@media(max-width: 980px) {
+	.conteiner-about {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+
+	.conteiner-about .desc-section {
+		padding: 0 17px;
+	}
+
+	.conteiner-about .img-section {
+		justify-content: center;
+	}
+}
+
+@media(max-width: 840px) {
+	.conteiner-about .desc-section h1 {
+		font-size: 1.6rem;
+	}
+} 
+
+@media(max-width: 620px) {
+	.conteiner-about .desc-section p {
+		font-size: 0.9rem;
+		margin: 1rem 0;
+	}
+}
+
+@media(max-width: 430px) {
+	.conteiner-about .desc-section h1 {
+		font-size: 1.1rem;
+	}
+
+	.conteiner-about .desc-section p {
+		font-size: 0.8rem;
+	}
+}
+
+@media(max-width: 350px) {
+	.conteiner-about .desc-section .btn .cep {
+		font-size: 0.8rem;
+	}
+
+	.conteiner-about .btn .pesquisar {
+		padding: 10px 11px;
+		font-size: 0.8rem;
+		align-items: center;
+	}
+
+	.conteiner-about .btn .pesquisar .simbolo {
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+}

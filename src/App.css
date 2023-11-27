@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.conteiner {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 12px 0;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.section-pedidos {
+  margin: 65px 0;
+}
+
+.section-produtos {
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.section-artigos {
+  margin-top: 50px;
+}
+
+@media(max-width: 350px) {
+  .conteiner {
+    margin: 0 auto 0 8px;
+  }
+}
+
+@media(max-width: 320px) {
+  .conteiner {
+    margin: 0 auto;
+  }
+} 
